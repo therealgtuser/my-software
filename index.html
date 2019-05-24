@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Software</title>
-</head>
-<body>
-    GT's Software <br>
-    <input type="text"></input>
-    <input type="button" value="Add"></input>
-    <ul>
-        <li>GitHub Desktop</li>
-        <li>Google Chrome</li>
-        <li>Visual Studio Code</li>
-    </ul>
-</body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">GT's Software</h1>
+      <div class="field has-addons">
+        <div class="control">
+          <input class="input" type="text" placeholder="Add new software">
+        </div>
+        <div class="control">
+          <a class="button is-info">
+            Add
+          </a>
+        </div>
+      </div>
+      <table class="table is-striped is-hoverable is-bordered">
+          <tbody>
+              <tr> <td>GitHub Desktop</td> </tr>
+              <tr> <td>Google Chrome</td> </tr>
+              <tr> <td>Visual Studio Code</td> </tr>
+              <tr> <td>VLC player</td> </tr>
+              <tr> <td>EagleGet</td> </tr>
+          </tbody>
+      </table>
+    </div>
+  </section>
+  </body>
 </html>
